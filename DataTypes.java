@@ -80,6 +80,8 @@ public class DataTypes {
 
         // `String` data type stores a sequence of characters.
         // Must be surrounded by double quotes.
+        // So much used and integrated in Java that it is sometimes called "the special ninth type".
+        // `String` is a non-primitive type because it refers to an object.
         String greeting = "Hi there!";
         System.out.println(greeting);
     }
