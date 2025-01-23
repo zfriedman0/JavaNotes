@@ -43,5 +43,14 @@ public class IfElse {
         int time3 = 20;
         String result = (time3 < 18) ? "Good day." : "Good evening.";
         System.out.println(result);
+
+        // Real-life Example
+        int a = 15;
+
+        if (a % 2 == 0) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
     }
 }
