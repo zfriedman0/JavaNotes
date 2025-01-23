@@ -4,7 +4,7 @@ public class Switches {
             Instead of writing many if-else statements, can use a `switch` statement.
             Selects one of many code blocks to be executed.
 
-            This is how it works:
+            How it works:
                 ~ The `switch` expression is evaluated once
                 ~ The value of the expression is compared with the values of each `case`
                 ~ If there is a match, the associated block of code is executed
