@@ -29,11 +29,16 @@ public class Strings {
         String x = "10";
         int y = 20;
         String z = x + y;
+        System.out.println(z);
 
         // The backslash (\) escape character turns special characters into string characters.
         String newStr1 = "We are the so-called \"Vikings\" from the north.";
         String newStr2 = "It\'s alright.";
         String newStr3 = "The character \\ is called backslash.";
+
+        System.out.println(newStr1);
+        System.out.println(newStr2);
+        System.out.println(newStr3);
 
         /*
             Other common escape sequences
