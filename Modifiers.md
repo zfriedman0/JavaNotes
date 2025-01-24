@@ -34,6 +34,7 @@ For attributes and methods, you can use...
 `volatile`      The value of an attribute is not cached thread-locally, and is always read from the "main memory".
 
 ## Final
+
 <code>
 public class Main {
     final int x = 10;
@@ -50,6 +51,7 @@ public class Main {
 
 ## Static
 A `static` method means that it can be accessed without creating an object of the class, unlike `public`:
+
 <code>
 public class Main {
     // Static method
@@ -74,6 +76,7 @@ public class Main {
 
 ## Abstract
 An `abstract` method belongs to an `abstract` class, and it does not have a body. The body is provided by the subclass:
+
 <code>
 // Code from filename: Main.java
 // abstract class
