@@ -24,3 +24,15 @@ class Vehicle {
 class Car extends Vehicle { // Car subclass inherits attributes and methods of Vehicle superclass
     protected String modelName = "Mustang"; // Car attribute
 }
+
+/*
+ * If you don't want other classes to inherit from a class, use the `final` keyword.
+ * 
+ * final class Vehicle {
+ *  ...
+ * }
+ * 
+ * class Car extends Vehicle {
+ *  ...
+ * }
+ */
