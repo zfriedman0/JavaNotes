@@ -14,6 +14,9 @@ public class InnerClasses {
 
         OuterClass.InnerClass3 myInner3 = new OuterClass.InnerClass3();
         System.out.println(myInner3.y);
+
+        OuterClass.InnerClass4 myInner4 = myOuter.new InnerClass4();
+        System.out.println(myInner4.myInnerMethod()); // Using an inner class to access outer class methods
     }
     
 }
@@ -34,6 +37,13 @@ class OuterClass {
     // An inner class can also be `static`, meaning you can access it without creating an object of the outer class.
     static class InnerClass3 {
         int y = 6;
+    }
+
+    // An advantage of inner classes is that they can access attributes and methods of the outer class.
+    class InnerClass4 {
+        public int myInnerMethod() {
+            return x;
+        }
     }
 
 }
